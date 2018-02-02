@@ -57,8 +57,9 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>2</Count>
+    <Count>3</Count>
     <DataFile>dbo.WidgetPrices_Data.sql</DataFile>
     <DataFile>dbo.PersonTest_Data.sql</DataFile>
+    <DataFile>dbo.ObjectTest_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
