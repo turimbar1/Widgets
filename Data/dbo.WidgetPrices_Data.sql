@@ -1,10 +1,8 @@
 SET IDENTITY_INSERT [dbo].[WidgetPrices] ON
-INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (1, 1, 515.7460, '1955-02-06 17:56:07.550', '1983-10-31 16:54:37.080', 'I')
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (2, 2, 628.8135, '2003-09-20 21:01:39.430', '1964-11-10 18:37:19.680', ' ')
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (3, 3, 511.9144, '1964-08-07 09:31:05.540', '2003-01-15 23:14:26.020', ' ')
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (4, 4, 943.9735, '1961-08-29 00:34:00.920', '1973-05-25 10:50:32.800', ' ')
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (5, 5, 358.7873, '1997-07-24 22:53:45.020', '1967-05-25 22:45:11.330', 'T')
-INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (6, 6, 406.1587, '1968-05-27 11:53:07.380', '1961-06-20 11:31:52.360', 'E')
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (7, 7, 472.5488, '2003-08-19 04:51:04.080', '1973-04-11 07:36:30.090', 'U')
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (8, 8, 519.3461, '1954-02-27 10:31:55.070', '1981-09-30 18:33:44.460', ' ')
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (9, 9, 26.2917, '1961-04-02 05:15:37.200', '1968-01-21 07:35:49.210', ' ')
@@ -999,4 +997,8 @@ INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], 
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (998, 997, 568.4309, '1994-02-24 03:30:30.480', '1977-06-18 14:17:59.680', ' ')
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (999, 998, 477.1307, '1982-02-02 12:08:26.990', '1978-07-13 09:47:17.390', 'D')
 INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (1000, 999, 600.5571, '1996-04-07 01:54:55.220', '1971-08-11 23:50:20.870', ' ')
+SET IDENTITY_INSERT [dbo].[WidgetPrices] OFF
+SET IDENTITY_INSERT [dbo].[WidgetPrices] ON
+INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (1, 1, 515.7500, '1955-02-06 17:56:07.550', '1983-10-31 16:54:37.080', 'I')
+INSERT INTO [dbo].[WidgetPrices] ([RecordID], [WidgetID], [Price], [ValidFrom], [ValidTo], [Active]) VALUES (6, 6, 407.1587, '1968-05-27 11:53:07.380', '1961-06-20 11:31:52.360', 'E')
 SET IDENTITY_INSERT [dbo].[WidgetPrices] OFF
