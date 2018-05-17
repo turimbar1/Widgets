@@ -1,10 +1,9 @@
 CREATE TABLE [dbo].[demotable]
 (
-[DemoId] [bigint] NOT NULL,
-[DemoDescription] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[FirstName] [nvarchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[LastName] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[TableId] [bigint] NOT NULL,
+[TableName] [nvarchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[TableDesc] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
-ALTER TABLE [dbo].[demotable] ADD CONSTRAINT [PK__demotabl__977B80755E2EBDD1] PRIMARY KEY CLUSTERED  ([DemoId]) ON [PRIMARY]
+ALTER TABLE [dbo].[demotable] ADD CONSTRAINT [PK__demotabl__7D5F01EE9AAD425A] PRIMARY KEY CLUSTERED  ([TableId]) ON [PRIMARY]
 GO
