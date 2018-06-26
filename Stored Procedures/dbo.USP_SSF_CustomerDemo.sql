@@ -1,0 +1,11 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[USP_SSF_CustomerDemo] AS
+BEGIN
+SELECT CustID
+     , CustDesc FROM dbo.customersDemo
+END
+
+GO
