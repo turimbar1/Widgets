@@ -57,10 +57,11 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>4</Count>
+    <Count>5</Count>
     <DataFile>dbo.WidgetPrices_Data.sql</DataFile>
     <DataFile>dbo.PersonTest_Data.sql</DataFile>
     <DataFile>dbo.ObjectTest_Data.sql</DataFile>
     <DataFile>dbo.WidgetDescriptions_Data.sql</DataFile>
+    <DataFile>dbo.WidgetReferences_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
