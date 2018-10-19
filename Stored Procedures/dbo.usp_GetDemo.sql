@@ -1,0 +1,10 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[usp_GetDemo] AS
+BEGIN
+SELECT DemoId, DemoFName, DemoLName FROM dbo.ObjectDemo
+END
+
+GO
