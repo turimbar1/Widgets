@@ -1,0 +1,10 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[USP_SSFObjectTest2] AS
+BEGIN
+SELECT ObjectId,
+       ObjectDescription FROM dbo.ObjectTest2
+END
+GO

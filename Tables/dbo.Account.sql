@@ -111,8 +111,10 @@ CREATE TABLE [dbo].[Account]
 [Zuora__SLASerialNumber__c] [nvarchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Zuora__SLA__c] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Zuora__UpsellOpportunity__c] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[RED_Gate_ID] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+[RED_Gate_ID] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[User_Modified_Date] [datetime2] NULL,
+[Last_Changed_By] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Account] ADD CONSTRAINT [UQ__Account__7E0C69C9522A6707] UNIQUE NONCLUSTERED  ([RED_Gate_ID]) ON [PRIMARY]
 GO

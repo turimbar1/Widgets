@@ -4,8 +4,7 @@ CREATE TABLE [dbo].[WidgetDescriptions]
 [ShortDescription] [nvarchar] (2000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Description] [text] COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Picture] [image] NULL,
-[Description2] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[LastModified] [datetime] NULL
+[Description2] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[WidgetDescriptions] ADD CONSTRAINT [PK_WidgetDescriptions] PRIMARY KEY CLUSTERED  ([WidgetID]) ON [PRIMARY]

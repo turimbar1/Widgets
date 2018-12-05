@@ -1,0 +1,9 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[USP_GetTest] AS
+BEGIN
+SELECT TestId, TestName, TestDescription FROM dbo.TestTable
+END
+GO
