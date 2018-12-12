@@ -7,6 +7,7 @@
   <DefaultFilegroup>PRIMARY</DefaultFilegroup>
   <DatabaseVersion>13</DatabaseVersion>
   <IsAzure>False</IsAzure>
+  <ScriptFolderType>Default</ScriptFolderType>
   <MaxDataFileSize>10485760</MaxDataFileSize>
   <WriteToFileOptions>
     <Prefixes>
@@ -57,12 +58,11 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>6</Count>
-    <DataFile>dbo.WidgetPrices_Data.sql</DataFile>
-    <DataFile>dbo.PersonTest_Data.sql</DataFile>
+    <Count>5</Count>
+    <DataFile>dbo.HelloWorld_Data.sql</DataFile>
     <DataFile>dbo.ObjectTest_Data.sql</DataFile>
     <DataFile>dbo.WidgetDescriptions_Data.sql</DataFile>
+    <DataFile>dbo.WidgetPrices_Data.sql</DataFile>
     <DataFile>dbo.WidgetReferences_Data.sql</DataFile>
-    <DataFile>dbo.HelloWorld_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
