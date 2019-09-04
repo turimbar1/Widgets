@@ -6,7 +6,8 @@ CREATE TABLE [dbo].[customersDemo]
 [CustDOB] [date] NULL,
 [CustomerNotes] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [EmailAddress] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[LinkedInURL] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[LinkedInURL] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[OrkutID] [int] NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[customersDemo] ADD CONSTRAINT [PK__customer__049E3A89295CB0A4] PRIMARY KEY CLUSTERED  ([CustID]) ON [PRIMARY]
