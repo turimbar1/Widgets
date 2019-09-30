@@ -1,0 +1,2 @@
+Level,Name1,Name2,Name3,AlertType,Alert Name,SubType,Configuration,Enabled,AlertNotification,EmailAddress,Version
+Root,,,,33,SQL Server Browser Service status,0,<Config xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""><StartedEnabled>false</StartedEnabled><PausedEnabled>false</PausedEnabled><StoppedEnabled>true</StoppedEnabled><Severity>2</Severity></Config>,False,1,,0

@@ -1,0 +1,541 @@
+[Red Gate Monitor (9.0.2.19903), Running as: NT AUTHORITY\SYSTEM (Service), Working Dir: C:\Windows\system32]
+[Running on: WACPRDBMPOC01 (wacprdbmpoc01.corpr.jjkeller.local), OS Version: Microsoft Windows NT 10.0.14393.0, .NET Runtime Version: 4.0.30319.42000 (Microsoft)]
+[Start Date: 2019-01-29 21:35:51Z, Current Date: 2019-01-29 21:35:52Z, Elapsed Time: 00:00:01.3827917]
+2019-01-29 21:35:55,970 [              9] WARN    BaseMonitorConnectionFactory - Failed to connect to base monitor BaseMonitorLocation(localhost:7399)
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Couldn't connect to Base Monitor ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7399
+   at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+   at RedGate.SqlMonitor.Common.Networking.Client.RpcSynchronousTcpChannel..ctor(String hostName, Int32 port, X509Certificate certificate, RpcVersion rpcVersion, AuthenticatedUser authenticatedUser)
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnection.Open()
+   --- End of inner exception stack trace ---
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnection.Open()
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionFactory.Build(BaseMonitorLocation baseMonitorLocation, Boolean contextless, Boolean strict)RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Couldn't connect to Base Monitor ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7399
+   at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+   at RedGate.SqlMonitor.Common.Networking.Client.RpcSynchronousTcpChannel..ctor(String hostName, Int32 port, X509Certificate certificate, RpcVersion rpcVersion, AuthenticatedUser authenticatedUser)
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnection.Open()
+   --- End of inner exception stack trace ---
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnection.Open()
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionFactory.Build(BaseMonitorLocation baseMonitorLocation, Boolean contextless, Boolean strict)
+2019-01-29 21:35:56,017 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:35:56,017 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:35:56,032 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:35:56,032 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:35:56,032 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:35:56,032 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:35:56,032 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:35:56,032 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:35:56,064 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:35:56,064 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:04,793 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:04,793 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:04,793 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:04,793 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:04,809 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,028 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,028 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,043 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,043 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,043 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,043 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,043 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,043 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,043 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:05,231 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,079 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,079 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,751 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,798 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,798 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,798 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,798 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,798 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,798 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,798 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,798 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:11,892 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:23,111 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:23,142 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:23,220 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:23,220 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:26,095 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:26,095 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:27,798 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:27,798 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:27,798 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:27,798 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:27,798 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:27,798 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:27,798 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:27,814 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:41,113 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:41,113 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:42,832 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:42,848 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:42,848 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:42,848 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:42,863 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:42,863 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:42,863 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:42,863 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:44,754 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:44,754 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:44,785 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:44,816 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:44,910 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:45,363 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:45,410 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:45,457 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:45,504 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:45,504 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:45,520 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:45,738 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:51,802 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:52,349 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:52,396 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:52,396 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:52,396 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:52,427 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:52,459 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:53,740 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:53,890 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:53,922 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:53,922 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:53,937 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:53,969 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:54,000 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:55,134 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:55,196 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:55,228 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:55,228 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:55,228 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:55,259 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:55,306 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:56,134 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:56,134 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:56,618 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:56,681 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:56,712 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:56,712 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:56,712 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:56,759 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:56,790 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:57,728 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:57,791 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:57,837 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:57,837 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:57,837 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:57,884 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:57,947 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:58,884 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:58,947 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:58,978 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:58,978 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:58,978 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:59,009 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:59,041 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:36:59,962 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:00,025 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:00,056 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:00,056 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:00,056 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:00,103 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:00,134 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:01,731 [             20] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:01,793 [             21] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:01,825 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:01,825 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:01,840 [              9] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:01,856 [              8] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
+2019-01-29 21:37:01,903 [             19] ERROR RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider - Failed to establish RPC connection to base monitor
+RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()RedGate.SqlMonitor.Common.Networking.Exceptions.RpcNoChannelException: Base Monitor connection not open.
+   at RedGate.SqlMonitor.UI.Website.Infrastructure.BaseMonitorConnectionProvider.CheckConnectionsInitialised()
