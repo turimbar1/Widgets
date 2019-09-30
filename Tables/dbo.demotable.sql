@@ -5,7 +5,8 @@ CREATE TABLE [dbo].[demotable]
 [TableDesc] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [DemoNotes] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [RedgateEmailAddress] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[NewCol] [int] NULL
+[NewCol] [int] NULL,
+[RedgateEmailAdress] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[demotable] ADD CONSTRAINT [PK__demotabl__7D5F01EE9AAD425A] PRIMARY KEY CLUSTERED  ([TableId]) ON [PRIMARY]
