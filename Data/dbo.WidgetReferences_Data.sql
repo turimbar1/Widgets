@@ -4,7 +4,6 @@ INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (3, 'RIWNS
 INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (4, 'VZ0JA2AXEA5BU0ZIVQ1W46RAPEIW0RU44H2S')
 INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (5, 'Y4Z05MS0QX4KZHXDT5O7QUWJEWMG16DX7DXL2VYKZ9YG')
 INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (6, 'YOWJMO')
-INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (7, 'F62UCK')
 INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (8, 'W2JMZSDN9OKNAEW6YGQKFC3ABX8R9KENRPNI')
 INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (9, 'QMRXOOIJK6HJZ3EM')
 INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (10, 'DYIYUWJ')
@@ -998,3 +997,4 @@ INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (997, 'ASA
 INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (998, 'IMDU9O53H5PBR12PTW72M3G4SPKVPLHVWD9IA7GLM6P1O')
 INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (999, 'QP5MMK01GF6')
 INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (1000, '2K3AEWNTEDRKEMGLFGDEF0YVP2YXUVWTB15VH')
+INSERT INTO [dbo].[WidgetReferences] ([WidgetID], [Reference]) VALUES (7, 'DJUWYN')
