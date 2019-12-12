@@ -1,6 +1,8 @@
 CREATE TABLE [dbo].[customersDemo]
 (
 [CustID] [bigint] NOT NULL,
+[CustDesc] [nvarchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[CustName] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [CustDOB] [date] NULL,
 [CustomerNotes] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [EmailAddress] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
