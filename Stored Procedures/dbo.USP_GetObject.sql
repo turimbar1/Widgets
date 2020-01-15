@@ -6,10 +6,10 @@ CREATE PROCEDURE [dbo].[USP_GetObject] AS
 BEGIN
 SELECT
     ObjectID,
-    ObjectName,
-    ObjectDesc,
-    ObjectAdd
+    ObjectName
+   
 FROM
     dbo.ObjectTest;
 END
+
 GO

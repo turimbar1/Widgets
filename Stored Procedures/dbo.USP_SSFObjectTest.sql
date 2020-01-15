@@ -6,7 +6,7 @@ CREATE PROCEDURE [dbo].[USP_SSFObjectTest] AS
 BEGIN
 SELECT ObjectID
      , ObjectName
-     , ObjectDesc
-     , ObjectAdd FROM  dbo.ObjectTest
+      FROM  dbo.ObjectTest
 END
+
 GO
