@@ -1,0 +1,10 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+create   PROCEDURE [dbo].[Get_Customer] AS
+BEGIN
+SELECT * FROM dbo.Customer
+END
+
+GO
