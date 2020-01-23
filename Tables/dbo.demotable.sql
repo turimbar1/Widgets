@@ -11,7 +11,8 @@ CREATE TABLE [dbo].[demotable]
 [DemoAddress2] [nvarchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [DemoNotes] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [DemoFeedback] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[TableDescription] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[TableDescription] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[FacebookUsername] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[demotable] ADD CONSTRAINT [PK__demotabl__977B80755E2EBDD1] PRIMARY KEY CLUSTERED  ([DemoId]) ON [PRIMARY]
