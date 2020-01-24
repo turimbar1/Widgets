@@ -9,7 +9,8 @@ CREATE TABLE [dbo].[PersonTest]
 [CountryCode] [nchar] (2) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [LastModified] [datetime2] NULL,
 [LastModifiedBy] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[Address1] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[Address1] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[AzureID] [int] NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[PersonTest] ADD CONSTRAINT [PK__PersonTe__AA2FFBE59FB67109] PRIMARY KEY CLUSTERED  ([PersonId]) ON [PRIMARY]
