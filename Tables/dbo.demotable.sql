@@ -14,7 +14,8 @@ CREATE TABLE [dbo].[demotable]
 [TableDescription] [nvarchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [AzureID] [int] NULL,
 [ChromeUser] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[ChromeUserID] [int] NULL
+[ChromeUserID] [int] NULL,
+[NikeID] [int] NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[demotable] ADD CONSTRAINT [PK__demotabl__977B80755E2EBDD1] PRIMARY KEY CLUSTERED  ([DemoId]) ON [PRIMARY]
