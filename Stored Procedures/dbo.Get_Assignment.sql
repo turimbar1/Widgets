@@ -9,7 +9,8 @@ SELECT
     person_id,
     emp_id,
     emp_jobtitle,
-    assignment_notes
+    assignment_notes,
+    NotRealColumn
 FROM
     dbo.DM_ASSIGNMENT;
 END
