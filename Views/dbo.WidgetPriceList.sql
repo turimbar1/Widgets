@@ -2,6 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
+
 -- Create indexed view
 
 CREATE VIEW [dbo].[WidgetPriceList]
@@ -10,5 +11,5 @@ AS
 SELECT     dbo.Widgets.RecordID, dbo.Widgets.Description AS Widget, dbo.WidgetPrices.Price
 FROM       dbo.Widgets INNER JOIN
            dbo.WidgetPrices ON dbo.Widgets.RecordID = dbo.WidgetPrices.RecordID
-		   WHERE Price <= '$2:00'
+		   WHERE Price >= '$2:00'
 GO
