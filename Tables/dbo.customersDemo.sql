@@ -8,7 +8,10 @@ CREATE TABLE [dbo].[customersDemo]
 [AzureEnvironment] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [AzureEnvironmentID] [int] NULL,
 [AzureUsername] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[AzureEnvironmentDescription] [int] NULL
+[AzureEnvironmentName] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[RedgateID] [int] NULL,
+[RedgateUserName] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[RedgateUserEmail] [nvarchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[customersDemo] ADD CONSTRAINT [PK__customer__049E3A89295CB0A4] PRIMARY KEY CLUSTERED  ([CustID]) ON [PRIMARY]

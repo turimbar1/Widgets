@@ -11,7 +11,8 @@ CREATE TABLE [dbo].[Contacts]
 [Email] [nvarchar] (256) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Description] [nvarchar] (62) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [PhoneHome] [nvarchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[LastModifiedBy] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+[LastModifiedBy] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[RG_ID_Email] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Contacts] ADD CONSTRAINT [PK_Contacts] PRIMARY KEY CLUSTERED  ([ID]) ON [PRIMARY]
